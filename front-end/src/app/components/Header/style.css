@@ -1,0 +1,58 @@
+/* style.css */
+.sinal {
+  color: #c51b1b;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  margin-left: auto;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.nome-clinica {
+  color: #fdfffe;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: auto;
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center; /* Centraliza os links na tela */
+  align-items: center;
+  gap: 2.5rem; /* Espaçamento entre os links */
+  background-color: #166534; /* Um fundo verde bem claro e suave */
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0;
+}
+nav {
+  display: flex;
+  justify-content: center; /* Centraliza os links na tela */
+  align-items: center;
+  gap: 2.5rem; /* Espaçamento entre os links */
+  background-color: #f0fdf4; /* Um fundo verde bem claro e suave */
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Sombra leve para dar profundidade */
+}
+
+nav a {
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: #166534; /* Texto em um verde escuro para dar contraste e leitura */
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease; /* Deixa as animações de hover suaves */
+}
+
+nav a:hover {
+  color: #22c55e; /* Muda para um verde mais vibrante ao passar o mouse */
+  transform: translateY(-2px); /* Dá um leve "pulo" para cima */
+}
+
+/* Responsividade para telas menores (celulares) */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column; /* Empilha os links no celular */
+    gap: 1rem;
+    padding: 1rem;
+  }
+}

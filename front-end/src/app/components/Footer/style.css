@@ -1,0 +1,40 @@
+/* =========================================
+   ESTILOS DO FOOTER (RODAPÉ)
+   ========================================= */
+
+.footer-veterinaria {
+  background-color: #166534; /* Fundo verde escuro para contrastar com o cabeçalho */
+  color: #f0fdf4; /* Texto em um tom quase branco/verde clarinho */
+  padding: 3rem 4rem 1.5rem 4rem; /* Espaçamento interno */
+  text-align: center;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Título dentro do rodapé */
+.footer-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  color: #4ade80; /* Um verde mais vibrante para dar destaque ao nome */
+}
+
+/* Frase de efeito */
+.footer-info p {
+  margin: 0 0 2rem 0;
+  font-size: 1rem;
+  opacity: 0.9; /* Deixa o texto um pouco mais suave */
+}
+
+/* Área de Direitos Autorais (Copyright) */
+.footer-copy {
+  border-top: 1px solid rgba(240, 253, 244, 0.2); /* Linha sutil para separar o conteúdo */
+  padding-top: 1.5rem;
+  font-size: 0.85rem;
+  opacity: 0.7; /* Deixa o texto do copyright mais discreto */
+}
+
+/* Responsividade: Ajuste para celulares */
+@media (max-width: 768px) {
+  .footer-veterinaria {
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+  }
+}
