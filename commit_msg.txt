@@ -1,0 +1,5 @@
+feat: implementar 8 endpoints Express conectados ao SQL na branch 8-API
+
+- Implementar endpoints conforme tarefa 8
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
